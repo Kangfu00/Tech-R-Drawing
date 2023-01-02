@@ -22,7 +22,7 @@ body {
     cursor: pointer;
     font-size: 26px;
     padding: 20px;
-    width: 20%;
+    width: 200px;
     height: 20%;
     border-radius: 20px;
     transform-origin: center top;
@@ -65,7 +65,8 @@ body {
 }
 
 .tech_00 {
-    margin: 25px;
+    margin: auto;
+    min-width: 520px;
     border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.2);
 }
