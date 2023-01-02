@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+.tech_box {
+    padding: 50px;
+    margin: 50px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.tech_but {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.but {
+    font-family: 'Mali', cursive;
+    cursor: pointer;
+    font-size: 26px;
+    padding: 20px;
+    width: 20%;
+    height: 20%;
+    border-radius: 20px;
+    transform-origin: center top;
+    transition-property: colot, transform, background-color;
+    transition-duration: 0.2s, 0.2s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: linear;
+}
+
+.but:hover {
+    color: white;
+    background-color: black;
+    transform: scale(1.1, 1.1);
+}
+
+.box {
+    font-size: 25px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    min-width: 300px;
+    min-height: 60px;
+    margin: 20px;
+    padding-top: 30px;
+    padding-bottom: -60px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 40px;
+    transform-origin: center top;
+    transition-property: colot, transform, background-color;
+    transition-duration: 0.2s, 0.2s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: linear;
+}
+
+.box:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.1, 1.1);
+}
+
+.tech_00 {
+    margin: 25px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.H1 {
+    border-radius: 40px;
+    min-width: 300px;
+    min-height: 60px;
+    margin: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 164, 164);
+    background: linear-gradient(-45deg, #9858ff, #34ffa0, #2997ff, #ff9e43);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
